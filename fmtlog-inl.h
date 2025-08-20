@@ -1,3 +1,6 @@
+#ifndef FMTLOG_INL_H
+#define FMTLOG_INL_H
+
 /*
 MIT License
 
@@ -633,3 +636,4 @@ void fmtlogT<_>::stopPollingThread() noexcept {
 
 template class fmtlogT<0>;
 
+#endif

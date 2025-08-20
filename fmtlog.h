@@ -1,3 +1,6 @@
+#ifndef FMTLOG_H
+#define FMTLOG_H
+
 /*
 MIT License
 
@@ -821,4 +824,6 @@ inline bool fmtlogT<_>::checkLogLevel(LogLevel logLevel) noexcept {
 
 #ifdef FMTLOG_HEADER_ONLY
 #include "fmtlog-inl.h"
+#endif
+
 #endif
